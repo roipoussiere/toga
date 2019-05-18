@@ -41,7 +41,7 @@ start coding. To set up a virtual environment, run:
       C:\...>py -m venv venv
       C:\...>venv\Scripts\activate.bat
 
-Your prompt should now have a ``(venv)`` prefix in front of it.
+Note the `--pre` option, which enables installation of development releases of Toga. Your prompt should now have a ``(venv)`` prefix in front of it.
 
 If you are using Python 3.7 on Windows, you might get an error in the next step. Before proceeding, download unofficial pythonnet wheel file from `<https://www.lfd.uci.edu/~gohlke/pythonlibs/#pythonnet>`_ to your current directory, rename it to ``pythonnet.whl`` and run:
 
